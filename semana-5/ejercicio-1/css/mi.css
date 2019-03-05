@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #441E13;
+    font-family: arial;
+    color: white;
+}
+
+/*Utilitario*/
+.clearfix::after {
+    clear: both;
+    content: '';
+    height: 0;
+    display: block;
+}
+.center {
+    text-align: center;
+}
+
+/*General 'grilla'*/
+.col-left, .col-right { float: left;}
+.col-left { width: 20%;}
+.col-right { width: 80%;}
+
+/*Contenedor*/
+#container {
+    min-width: 800px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Cabecera*/
+header { color: white;}
+header figure img{float: left; margin: 10px;}
+header figure figcaption {float: left; margin-top: 50px; }
+
+/*Barra de navegación*/
+nav {
+    background: #39180F;
+    float: left;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 10px;
+    float: left;
+
+}
+
+nav a::before {
+    content: '|';
+    color: white;
+    margin-right:15px;
+}
+
+nav a:first-child {
+
+    margin-left: 20px;
+}
+
+nav a:first-child::before {
+    content: '';
+
+}
+
+/*Banner*/
+#banner {
+    background: #87A984;
+    color: #fff;
+}
+
+#banner img {
+    height: 150px;
+    margin: 20px 0;
+}
+
+#banner h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/*Contenido principal*/
+
+main .col-left, main .col-right {
+    min-height: 300px;
+}
+
+main .col-left {
+    background-color: #96AFAC;
+}
+main .col-right {
+    background-color: #DBD8C5;
+}
+main menu{
+    margin: 20px;
+}
+main menu a {
+   display: block;
+   border-bottom: 1px solid #fff;
+   text-decoration: none;
+   color: white;
+   margin-bottom: 8px;
+}
+
+main .content {
+    margin: 40px;
+    color: #333;
+}
+
+@media (max-width:500px){
+
+
+
+}

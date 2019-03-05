@@ -1,0 +1,48 @@
+/*
+|--------------------------------------------------------------------------
+| Estilos de la pagina
+|--------------------------------------------------------------------------
+*/
+/*Generales*/
+
+div > h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+header div,
+footer div {
+    height: 130px;
+}
+/*Cabecera*/
+
+header div {
+    background: #008C00;
+}
+/*Cuerpo*/
+
+main section , main aside { min-height: 310px; }
+
+main section h2,
+main aside h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+main section {
+    background: #BFFF00;
+}
+
+main aside {
+    background: #59B200;
+}
+
+main aside article { background: white;  }
+main aside article h2 { padding:25px 0; color: #000;}
+/*Pie*/
+
+footer div {
+    background: #00468C;
+}

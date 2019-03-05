@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section > div {
+    background: red;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+}

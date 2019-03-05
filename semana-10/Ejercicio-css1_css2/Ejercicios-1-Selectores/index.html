@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores</title>
+    <link rel="stylesheet" type="text/css" href="css/selectores.css">
+</head>
+<body>
+
+<section>
+    <article>
+        Ejercicio 1, todo elemento que posee un hijo<br>
+
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+
+        <p class="detalle">
+
+            <span class="hijo1">hijo_1</span>
+            <span class="hijo2">hijo_2</span>
+            <span class="hijo1">hijo_3</span>
+            <span class="hijo1">hijo_4</span>
+            <span class="hijo1">hijo_5</span>
+
+        </p>
+
+        <div class="detalle">
+
+            <span class="hijo1">hijo_1</span>
+            <span class="hijo2">hijo_2</span>
+            <span class="hijo1">hijo_3</span>
+            <span class="hijo1">hijo_4</span>
+            <span class="hijo1">hijo_5</span>
+
+            <ul class="lista1">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+
+             <ul class="lista2">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+
+        </div>
+
+
+    </article>
+    <article>
+        Ejercicio 2: elemento>elemento<br>
+
+        <ul>
+            <li><span>item1 <span>span hijo</span></span></li>
+            <li><span>item2 <span>span hijo</span></span></li>
+            <li><span>item3 <span>span hijo</span></span></li>
+            <li><span>item4 <span>span hijo</span></span></li>
+        </ul>
+
+        <ul>
+            <li><a href="">item1</a></li>
+            <li><a href="">item2</a></li>
+            <li><a href="">item3</a></li>
+            <li><a href="">item4</a></li>
+            <li><a href="">item5</a></li>
+        </ul>
+
+
+    </article>
+    <article>
+        Ejercicio 3 : :first-child | :last-child<br>
+
+        <span>num1</span>
+        <span>num2</span>
+        <span>num3</span>
+        <span>num4</span>
+
+    </article>
+    <article>
+        Ejercicio 4 elemento + elemento<br>
+
+        <h1>Título</h1>
+        <p>Primer párrafo.</p>
+        <p>Segundo párrafo.</p>
+        <p>Segundo párrafo.</p>
+
+
+
+    </article>
+
+    <article>
+    Ejercicio 5:
+        Afecta a todos los elementos precedidos(~) <br>
+        A ~ B<br>
+        En el caso B es precedido de A<br>
+        Es decir Afecta a todos los B que sean precedidos de un A dentro de un contexto inmediato <br>
+
+        <h3>Título h3</h3>
+        <ul>
+            <li>item_1</li>
+            <li>item_2</li>
+            <li>item_3</li>
+            <li>item_4</li>
+        </ul>
+
+        <h2>Título h2</h2>
+        <ul>
+            <li>item_1</li>
+            <li>item_2</li>
+            <li>item_3</li>
+            <li>item_4</li>
+        </ul>
+
+        <h3>Título h3</h3>
+            <ul>
+                <li>item_1</li>
+                <li>item_2</li>
+                <li>item_3</li>
+                <li>item_4</li>
+            </ul>
+
+        <div>
+            <h3>Título h3</h3>
+            <ul>
+                <li>item_1</li>
+                <li>item_2</li>
+                <li>item_3</li>
+                <li>item_4</li>
+            </ul>
+
+             <h4>Título h3</h4>
+            <ul>
+                <li>item_1</li>
+                <li>item_2</li>
+                <li>item_3</li>
+                <li>item_4</li>
+            </ul>
+        </div>
+
+         <h4>Título h3</h4>
+            <ul>
+                <li>item_1</li>
+                <li>item_2</li>
+                <li>item_3</li>
+                <li>item_4</li>
+            </ul>
+
+
+
+    </article>
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'Examen_font';
+    src: url(../font/PMN_Caecilia_45_Light.ttf);
+    font-weight: normal;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html { font-family:'Examen_font' ;}
+
+/*GRID*/
+.col-1, .col-2 {
+    float: left;
+}
+
+.col-1 { width: 20%;}
+.col-2 { width: 60%;}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*GENERAL*/
+.row > div { text-align: center;}
+ul li { list-style: none;}
+
+h1, a { text-transform: uppercase;color: #66BCD3; }
+a { text-decoration: none; transition: all 1s ease; }
+a:hover { color: red;}
+.celeste {color: #66BCD3;}
+
+/*HEADER*/
+header {
+    margin-top: 50px;
+}
+
+/*MAIN*/
+.mosaic { margin: 100px 0;}
+.mosaic li {
+
+    display: inline-block;
+    width: 20%;
+}
+
+.mosaic li img { display: block;
+    width: 100%;
+}
+
+.mosaic li a img {
+   transition: all .8s ease-in-out;
+}
+.mosaic li a:hover img {
+    opacity: .5;
+}
+
+
+main .col-1 a {
+    margin-top: 100%;
+    display: block;
+ }
+
+
+/*FOOTER*/
+.people { font-size: 12px; margin-top: 50px;}

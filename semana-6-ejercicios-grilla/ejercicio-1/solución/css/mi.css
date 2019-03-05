@@ -1,0 +1,86 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+/*GENERAL*/
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#container {
+
+    min-width: 600px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+
+    background: gray;
+    display: inline-block;
+    width: 100%;
+
+}
+
+section article {
+    text-align: center;
+    width: 29%;
+    margin: 2%;
+    background: #008C8C;
+    float: left;
+    height: 150px;
+    color: white;
+    position: relative;
+}
+
+section article.col-1 p {
+
+    padding: 25% 0;
+
+}
+
+section article.col-2 p {
+
+    float: right;
+
+}
+
+
+section article span {
+
+    border-radius: 50%;
+    background: red;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-indent: -900em;
+    position: absolute;
+}
+
+section article.col-1 span {
+
+    left: -50px;
+    top:-50px;
+    height: 100px;
+    width: 100px;
+}
+
+section article.col-2 span {
+
+    right: -20px;
+    bottom: -20px;
+    height: 40px;
+    width: 40px;
+
+}
+
+section article.col-3 span {
+
+    top: -15px;
+    right: -15px;
+
+}

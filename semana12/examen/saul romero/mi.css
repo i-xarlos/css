@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+}
+
+/*rampa*/
+section{
+	width: 75%;
+	height: 400px;
+	top: 250px;
+	background-image: url(fondo.png);
+	position: relative;
+	overflow: hidden;
+	background-repeat:no-repeat;
+	background-position: bottom;
+
+
+}
+  
+/*ciclista*/
+section:before{
+	content: "";
+	background-image: url(Ciclista.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top:155px;
+	
+	-webkit-animation: monveBefore 3s ;
+	-webkit-animation-timing-function: ease-in-out;
+	
+}
+
+/*animacion*/
+@-webkit-keyframes monveBefore {
+	0%{top: 155px;left: 0px;}
+	30%{left:300px;}
+	50%{top: 2px;transform:rotate(-20deg);}
+	70%{left: 400px;}
+	85%{transform:rotate(360deg);top: 140px}
+	90%{left: 1000px;}
+	100%{}
+	
+}
+
+
+

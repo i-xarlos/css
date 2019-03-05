@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Chalet';
+    src: url(../fuentes/Chalet.ttf), url(../fuentes/Chalet.eot), url(../fuentes/Chalet.svg), url(../fuentes/Chalet.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+body,
+html {
+    font-family: 'Chalet', arial;
+    font-size: 10px;
+    background: #191419;
+}
+
+h1 {
+    font-size: 2em;
+    color: #EB5700;
+}
+
+header,
+nav,
+main,
+section,
+article,
+aside,
+footer {
+
+    border-radius: 5px;
+}
+
+header,
+nav,
+main,
+footer {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+header,
+nav,
+footer,
+section,
+aside
+{
+    padding: 1%;
+    margin: 2% 0%;
+    background: #135576;
+}
+
+article {
+    padding: 1%;
+    background: #00142A;
+}
+
+main {
+    border: 1px solid #135576;
+    float: left;
+    width: 100%;
+    background: rgb(25, 20, 25);
+}
+
+section { float: left; width: 70%;}
+aside { float: left; width: 26%;}

@@ -1,0 +1,87 @@
+
+/*anidación por espacio*/
+ul li { list-style-type:decimal; color: red; }
+p.detalle .hijo1 { color: blue; }
+div.detalle ul li { color: green;}
+
+/*asociación por comas*/
+.detalle .lista1 li , .detalle .lista2 li
+{ background: red; color: white; }
+
+/*anidación por >*/
+ul > li { text-decoration: underline; }
+li > span { color: blue }
+span > span { color: orange }
+
+/*:first-child | :last-child*/
+article > span { color: olive }
+article > span:first-child { color:#0f0; }
+article > span:last-child { color:#00F; }
+
+/*Anidando por + elemento inmediato*/
+h1 + p { font-family: georgia; color:#ccc; font-size: 10px;}
+h1 + p + p { color: brown;}
+
+/*Anidando por ~ elemento precedido*/
+h2 ~ ul { background: gray;  }
+
+/*:after :before*/
+.menu li a:after { content: ' último';}
+.menu li a:before { content: 'antes ';}
+
+/*:empty*/
+*:empty { color: red; background: black; height: 100px; width: 100px;
+    display: block; border: 1px solid #006600; }
+
+/*:lang(it)*/
+html:lang(es) p { color: blue;}
+article:lang(es) p { color: blue;}
+
+/*[atributo]*/
+a[href] { border: 1px solid orange;}
+a[target="_blank"] { border: 2px dotted olive; }
+a[href~='#'] { background: yellow;  }
+ /* todos los que contienen*/
+section[href$='.html'] { background: blue; color: white; }
+/*todos los que finalizan*/
+div[class*='col'] { text-shadow: 2px 2px 5px #ddff22; }
+/*todos los que contengan la subcadena*/
+h3[id^='titulo'] { color: red; background: gray;  }
+/*a todos los elementos que comienzan ^(Dato) */
+
+/*
+
+:nth-child(an+b)
+todas las filas impares 2n+1
+2(0)+1 = 1
+2(1)+1 = 3
+2(2)+1 = 5
+...
+
+*/
+table tr:nth-child(2n+1) { background: yellow; } /*impares*/
+table tr:nth-child(2n) { background: green; } /*impares*/
+.lista_extensa li:nth-child(-n+10){ color: green; } /*afecta a los primeros 10 elementos*/
+
+/*Sudo-clases*/
+#seudo-clases a[href] { border: none}
+#seudo-clases a:link { color: blue } /* enlaces no visitados */
+#seudo-clases a:visited { color: red } /* enlaces visitados */
+#seudo-clases a:hover { font-weight: bold } /* el usuario pasa el cursor por encima */
+#seudo-clases a:active { color: lime } /* enlaces activos o presionados */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

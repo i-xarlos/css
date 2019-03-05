@@ -1,0 +1,198 @@
+@font-face{
+    font-family: 'NOVABOLD';
+    src: url(../fonts/NOVABOLD.otf);
+    font-weight: normal;
+
+    }
+
+body {
+background: rgb(177,216,245); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(177,216,245,1) 0%, rgba(253,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(177,216,245,1)), color-stop(100%,rgba(253,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(177,216,245,1) 0%,rgba(253,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(177,216,245,1) 0%,rgba(253,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(177,216,245,1) 0%,rgba(253,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(177,216,245,1) 0%,rgba(253,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d8f5', endColorstr='#fdffff',GradientType=0 ); /* IE6-9 */
+}
+
+/*fondo*/
+div.fondo{
+	position: relative;
+}
+
+div.nube{
+	background-image: url(../images/nube.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 100px;
+	height:75px;
+	right: 75px;
+	top: 20px;
+}
+
+div.nube2{
+	background-image: url(../images/nube.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 100px;
+	height:75px;
+	left: 75px;
+	top: 30px;
+}
+
+div.nube3{
+	background-image: url(../images/nube1.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 100px;
+	height:75px;
+	left: 50px;
+	top: 250px;
+}
+
+div.nube4{
+	background-image: url(../images/nube1.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 100px;
+	height:75px;
+	right: 50px;
+	top: 250px;
+}
+/*logo*/
+
+header div figure img{
+	
+	margin-top: 5px;
+	width: 30%;
+}
+
+
+/*menu*/
+
+nav  {
+	text-align: center;
+	font-family: 'NOVABOLD';
+	font-size: 25px;
+}
+
+nav a::before{
+	content: "|";
+	color: black;
+	margin-right: 15px;
+}
+
+nav a:first-child{
+	margin-left: 20px;
+
+	
+}
+
+nav a:first-child:before{
+	content: "";
+}
+
+/*baner*/
+
+.main{
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+.slides{
+	width: 100%
+}
+
+.slides img{
+	width: 100%;
+}
+
+.slidesjs-pagination{
+	background-color: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li{
+	float: left;
+}
+.slides .active{
+	background: black;
+}
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 20px;
+	color: white;
+
+}
+
+.slidesjs-pagination li a:hover{
+	background:black;
+}
+
+.slidesjs-navigation{
+	background:black;
+	color: white;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
+
+
+/*iconos*/
+section div i{
+	padding-left: 80px;
+	color: #ff9600;
+	
+}
+
+section div p{
+	font-family: Century Gothic;
+}
+
+/*columnas*/
+aside div article img{
+	position: relative;
+
+}
+aside div article h2{
+	margin-left: 70px;
+	margin-top: -80px;
+	color: yellow;
+	text-align: center;
+	font-family: 'NOVABOLD';
+	font-size: 40px;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+/*pie de página*/
+
+.banner{
+	width: 90%;
+
+	
+}
+.banner img{
+	margin-left: 104%;
+
+}
+.info{
+	
+	float:right;
+	margin-right: -50px;
+	margin-top: -175px;
+	-webkit-transition: margin-right.5s;
+}
+
+.banner:hover .info{
+	margin-right:0px;
+
+}
+
+div.piso{
+	text-align: center;
+	width: 100%;
+}

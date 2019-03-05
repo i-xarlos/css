@@ -1,0 +1,106 @@
+@font-face{
+    font-family: 'NOVABOLD';
+    src: url(../fonts/NOVABOLD.otf);
+    font-weight: normal;
+
+    }
+
+
+/*logo*/
+
+.logo img{
+	margin: 5px auto;
+	display: block;
+	width: 350px;
+
+}
+
+/*manu*/
+
+nav  {
+	text-align: center;
+	font-family: 'NOVABOLD';
+	font-size: 25px;
+
+	
+
+}
+
+nav a::before{
+	content: "|";
+	color: black;
+	margin-right: 15px;
+
+}
+
+nav a:first-child{
+	margin-left: 20px;
+
+	
+}
+
+nav a:first-child:before{
+	content: "";
+}
+
+/*baner*/
+.col-sm-12{
+	height: 450px;
+	background: yellow;
+
+}
+/*iconos*/
+section .col-sm-4  i{
+	text-align: center;
+	color: red;
+}
+
+
+
+/*columnas*/
+
+aside div article {
+	background: blue;
+	height: 300px;
+}
+aside div article h2{
+	padding: 250px 0;
+	color: red;
+	text-align: center;
+	font-family: 'NOVABOLD';
+	font-size: 40px;
+}
+
+/*footer*/
+footer span{
+	float: right;
+	right: 80px;
+	margin-top: 13px;
+	
+	
+}
+footer{
+	lute;
+}
+footer span img{
+	margin-top:-7px;
+	margin-right: -10px;
+	z-index: 2;
+	position: absolute;
+}
+footer .tubo img{
+	float: right;
+	z-index: 1;
+	position: relative;
+
+}
+
+ footer .tubo:hover  span .iconos{
+
+}
+
+.piso{
+	
+
+
+}

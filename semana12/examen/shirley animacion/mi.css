@@ -1,0 +1,57 @@
+
+/*GENERAL*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+}
+
+
+/* fondo*/
+section {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+
+section img{
+	margin-top:400px; 
+}
+/*ANIMACIÓN*/
+section:before {
+	background-image: url(ciclista.fw.png);
+	background-repeat: no-repeat;
+	content: "";
+	display: block;
+	width: 300px;
+	height: 300px;
+	position: absolute;  
+	top:350px;
+	-webkit-animation: ciclista 3s 1;
+	-moz-animation: ciclista 3s 1;
+	animation-timing-function: ease;
+}
+
+@-webkit-keyframes ciclista {
+	0%{ top:350px; left: 0px; }
+	30%{ left: 300px; top: 270px; transform:rotate(-15deg);}
+	50%{ left: 350px; top: 50px;}
+	80%{ transform:rotate(360deg);}
+	90%{ top: 350px;}
+	100%{left: 1000px;
+	
+}
+
+@keyframes ciclista {
+	0%{ top:350px; left: 0px; }
+	30%{ left: 300px; top: 270px; transform:rotate(-15deg);}
+	50%{ left: 350px; top: 50px;}
+	80%{ transform:rotate(360deg);}
+	90%{ top: 350px;}
+	100%{left: 1000px;
+	
+}

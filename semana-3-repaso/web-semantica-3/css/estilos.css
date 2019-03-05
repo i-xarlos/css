@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Chalet';
+    src: url(../fuentes/Chalet.ttf),
+     url(../fuentes/Chalet.eot),
+     url(../fuentes/Chalet.svg),
+     url(../fuentes/Chalet.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    /*background-image: url(../img/fondo.png);*/
+}
+
+#container {
+    font-family: 'Chalet';
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    color:#fff;
+    background:#191419;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #eb5700;
+}
+
+h2 {
+    font-size: 1em;
+}
+.bloque-azul{
+    margin: 10px 0;
+    border-radius:5px;
+    background: #135576;
+    overflow: hidden;
+
+}
+
+main {
+    box-sizing: border-box;
+    border: 2px solid #135576;
+    background: #191419;
+    width: 100%;
+    float: left;
+
+}
+
+.left-col{ float: left; width: 70%; }
+.right-col{ float: left; width: 30%; }
+
+.left-col .bloque-azul , .right-col .bloque-azul  {
+    height: 80px;
+}
+
+.left-col .bloque-azul {
+    margin: 10px 5px 10px 10px;
+}
+.right-col .bloque-azul{
+    margin: 10px 10px 10px 5px;
+    line-height: 80px;
+
+}
+
+.bloque-azul article {
+  line-height: 40px;
+  height: 40px;
+  background: #191419;
+  margin: 0 10px;
+  border-radius: 5px;
+
+}
+
+footer.bloque-azul { display: inline-block; width: 100%;
+    margin-bottom: 0;
+}
+
+/*
+.content-border-box {
+    box-sizing: border-box;
+    background: red;
+
+    height: 100px;
+    width: 100px;
+
+    color: white;
+
+    border: 5px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content-content-box {
+
+    background: red;
+
+    height: 100px;
+    width: 100px;
+
+    color: white;
+
+    border: 5px solid green;
+    padding: 10px;
+
+    margin: 10px;
+}
+*/

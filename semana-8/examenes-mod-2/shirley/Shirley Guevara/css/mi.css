@@ -1,0 +1,170 @@
+@font-face{
+    font-family: 'basictitlefont';
+    src: url(../fonts/basictitlefont.ttf);
+    font-weight: normal;
+ }
+
+
+/* ------cabecera-------*/
+
+/*logotipo /columna 1 */
+
+header figure{
+	margin-top: 10px;
+	 
+}
+
+/*menú / columna 2*/
+header nav{
+	text-align: center;
+	margin-top: 70px;
+	font-family: "basictitlefont";
+}
+
+header nav a{
+	margin-right: 20px;
+}
+
+/*vínculos / columna 3*/
+
+header div{
+	text-align: right;
+	margin-top: 50px;
+
+	
+}
+header div a{
+	margin-right: 10px;
+	
+}
+
+header div span a{
+	color: #4d92d8;
+	font-size: 12px;
+}
+
+/*----------cuerpo-----------------*/
+
+/*FILA 2*/
+
+main  div > section{
+	background: #c9c9c9;
+
+}
+
+/*FILA 2- columna 1*/
+
+section h1{
+	margin: 10px 10px 0px 10px;
+}
+
+/*división "1" de la columna 1*/
+
+/*cuadrado negro*/
+section div  div{
+	background: #333333;
+	height: 310px;
+	margin: 10px 0px;
+	color: white;
+	position: relative;
+}
+
+
+section div div > p{
+	font-size: 40px;
+	margin-left: 190px;
+	padding-top: 110px;
+	position: absolute;
+}
+
+section div div span{
+	margin-top: 100px;
+	color: red;
+}
+
+
+/*iconos play , pause*/
+
+.icon-1, .icon-2{
+	width: 45px;
+	height: 45px;
+	background: white;
+	float: left;
+	margin-top: 265px;
+	margin-right: 5px;
+	text-align: center;
+	color: red;
+}
+
+.icon-1, .icon-2 i{
+	line-height: 45px;
+
+}
+
+/*división "2" de la columna 1*/
+
+div article img{
+	float: left;
+	margin: 10px 10px 10px 0px;
+	
+}
+
+div article p{
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+/*FILA 2- columna 2 (ASIDE)*/
+
+main aside {
+	
+}
+
+main div aside div{
+	background: #eeeeee;
+	height: 270px;
+	display: block;
+	text-align: center;		
+}
+
+main div aside i{
+	color: black;
+	padding-top: 90px;
+}
+
+main div aside p{
+	text-align: justify;
+	font-size: 13px;
+}
+
+/*FILA 3*/
+
+ div .fondo {
+	background: #eeeeee;
+	height: 350px;
+	margin-top: 20px;
+}
+
+div .fondo div article{
+	background:#eeeeee;
+	padding-bottom: 25px;
+}
+
+
+div .fondo h2{
+	padding: 10px 0px 0px 10px;
+	 
+}
+
+/*imágenes*/
+div .fondo img{
+	margin-top: 15px;
+}
+
+
+/*----------FOOTER------------*/
+
+footer p{
+	font-size: 12px;
+	padding-top: 10px;
+}
