@@ -1,12 +1,12 @@
 # CSS
 
-Aquí puden encontrar una lista de ejercicios realizados con los alumnos de MGP, siguiendola puedes aprender los usos básicos de html, 
-cómo hacer una grilla, como usar los principales estilos y aplicarlos a tus proyectos
+Aquí pueden encontrar una lista de ejercicios realizados con los alumnos de MGP hace un tiempo atrás; siguiendola puedes aprender los usos básicos de html, 
+cómo hacer una grilla, los principales estilos y como aplicarlos en tus proyectos
 
 # Guías
 
-Les coloco una lista de enlaces con el contenido en que se basa el curso, 
-son muy necesarios como guía para aprender los principiso básicos de html y css
+Les coloco una lista de enlaces con el contenido en que se basa el curso. 
+Es muy importante que leas y sigas las guías para aprender los principios básicos de html y css
 
 #Video tutoriales en español
 http://bextlan.com/tutoriales/html5
